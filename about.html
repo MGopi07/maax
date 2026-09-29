@@ -43,12 +43,12 @@
 <body>
 
     <!-- Preloader Start -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
             <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader End -->
 
     <!-- Header Box Start -->
@@ -158,21 +158,38 @@
     <!-- Page Header End -->
 
     <!-- Intro Section Start -->
-    <div class="about-intro bg-section" style="padding: 100px 0;">
-        <div class="container">
+    <div class="about-intro" style="padding: 100px 0; background-color: #f9f5f8; position: relative; overflow: hidden;">
+        <div class="container" style="position: relative; z-index: 1;">
             <div class="row justify-content-center text-center">
-                <div class="col-xl-9">
-                    <div class="section-title">
-                        <span class="section-sub-title wow fadeInUp">Intimate Care Made for Her</span>
-                        <h2 class="wow fadeInUp"
-                            style="font-size: 2.5rem; line-height: 1.4; color: var(--primary-color);">Every woman
-                            deserves to feel fresh, comfortable, confident, and cared for every day.</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s"
-                            style="font-size: 1.1rem; line-height: 1.8; margin-top: 30px;">Vayo saves you from
-                            embarrassing moments of smelling ‘bad’, and redefines luxury fragrances that offer
-                            indulgent, high-quality scents without compromise. Because intimate care isn't something to
-                            hide.<br><br><strong style="color: var(--accent-color); font-size: 1.3rem;">It's self-care.
-                                It's confidence. It's Vayo.</strong></p>
+                <div class="col-xl-10">
+                    <div class="intro-card wow fadeInUp"
+                        style="background: #ffffff; padding: 80px 60px; border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.02);">
+                        <div class="section-title" style="margin-bottom: 0;">
+                            <span class="vayo-badge wow fadeInUp"
+                                style="display: inline-flex; align-items: center; gap: 8px; background: rgba(124, 58, 237, 0.08); color: var(--highlight-color); padding: 8px 20px; border-radius: 30px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; margin-bottom: 30px; border: 1px solid rgba(124, 58, 237, 0.15); text-transform: uppercase;">
+                                <i class="fa-solid fa-star"></i>
+                                Intimate Care Made For Her
+                            </span>
+
+                            <h2 class="wow fadeInUp" data-wow-delay="0.1s"
+                                style="font-size: 2.2rem; line-height: 1.4; color: #222; font-weight: 700; margin-bottom: 30px;">
+                                Every woman deserves to feel fresh, comfortable, confident, and cared for every day.
+                            </h2>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"
+                                style="font-size: 1.15rem; line-height: 1.8; color: #666; max-width: 800px; margin: 0 auto;">
+                                Vayo saves you from embarrassing moments of smelling ‘bad’, and redefines luxury
+                                fragrances that offer indulgent, high-quality scents without compromise. Because
+                                intimate care isn't something to hide.
+                            </p>
+
+                            <div class="mt-5 wow fadeInUp" data-wow-delay="0.3s">
+                                <h4
+                                    style="display: inline-block; padding: 18px 45px; background: #ffffff; color: var(--highlight-color); font-size: 1.25rem; font-weight: 600; border-radius: 50px; box-shadow: 0 15px 40px rgba(124, 58, 237, 0.15); border: 1px solid rgba(124, 58, 237, 0.05); margin: 0;">
+                                    It's self-care. It's confidence. It's Vayo.
+                                </h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,34 +198,69 @@
     <!-- Intro Section End -->
 
     <!-- Our Story Start -->
-    <div class="our-story" style="padding: 100px 0;">
-        <div class="container">
+    <div class="our-story" style="padding: 100px 0; background-color: #ffffff; position: relative;">
+        <!-- Decorative subtle pattern/blob -->
+        <div
+            style="position: absolute; right: 0; top: 10%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(124, 58, 237, 0.04) 0%, rgba(255,255,255,0) 70%); pointer-events: none;">
+        </div>
+
+        <div class="container" style="position: relative; z-index: 1;">
             <div class="row align-items-center">
-                <div class="col-xl-5">
-                    <div class="story-image wow fadeInLeft">
+                <div class="col-xl-5 col-lg-6 mb-5 mb-lg-0">
+                    <div class="story-image wow fadeInLeft" style="position: relative; padding: 20px;">
+                        <!-- Image background shape -->
+                        <div
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(135deg, #f8f5ff 0%, #ffffff 100%); border-radius: 30px; z-index: -1; border: 1px solid rgba(124, 58, 237, 0.1);">
+                        </div>
+
                         <img src="images/vayo-wash.jpg" alt="Vayo Intimate Wash"
-                            style="width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                            style="width: 100%; border-radius: 24px; box-shadow: 0 25px 50px rgba(0,0,0,0.08); transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);"
+                            onmouseover="this.style.transform='translateY(-10px)'"
+                            onmouseout="this.style.transform='translateY(0)'">
                     </div>
                 </div>
-                <div class="col-xl-7">
-                    <div class="story-content" style="padding-left: 40px;">
+                <div class="col-xl-6 col-lg-6 offset-xl-1">
+                    <div class="story-content">
                         <div class="section-title" style="margin-bottom: 0;">
-                            <span class="section-sub-title wow fadeInUp">Our Story</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Created with a simple purpose: Better
-                                intimate care for every woman.</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Women deserve personal-care products that
-                                understand their unique needs. Vayo was created with a focus on one important part of
-                                everyday women's hygiene: intimate care.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.3s" style="margin-top: 15px;">We wanted to create
-                                a product that fits naturally into a woman's daily routine while making intimate hygiene
-                                feel comfortable, uncomplicated, and empowering. From the way we think about our
-                                formulation to the experience we create around the brand, our focus remains the same.
+                            <span class="vayo-badge wow fadeInUp"
+                                style="display: inline-flex; align-items: center; gap: 8px; background: rgba(124, 58, 237, 0.08); color: var(--highlight-color); padding: 8px 20px; border-radius: 30px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; margin-bottom: 25px; border: 1px solid rgba(124, 58, 237, 0.15); text-transform: uppercase;">
+                                <i class="fa-solid fa-star"></i> Our Story
+                            </span>
+
+                            <h2 class="text-anime-style-3" data-cursor="-opaque"
+                                style="font-size: 2.2rem; font-weight: 700; line-height: 1.4; margin-bottom: 30px; color: #222;">
+                                Created with a simple purpose: Better intimate care for every woman.
+                            </h2>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"
+                                style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+                                Women deserve personal-care products that understand their unique needs. Vayo was
+                                created with a focus on one important part of everyday women's hygiene: intimate care.
                             </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s"
-                                style="margin-top: 15px; font-weight: 600; color: var(--accent-color);">Gentle care.
-                                Everyday freshness. Complete confidence.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.5s" style="margin-top: 15px;">Vayo is more than an
-                                intimate wash. It's a reminder that taking care of yourself should always be a priority.
+
+                            <p class="wow fadeInUp" data-wow-delay="0.3s"
+                                style="margin-top: 15px; font-size: 1.1rem; line-height: 1.8; color: #555;">
+                                We wanted to create a product that fits naturally into a woman's daily routine while
+                                making intimate hygiene feel comfortable, uncomplicated, and empowering. From the way we
+                                think about our formulation to the experience we create around the brand, our focus
+                                remains the same.
+                            </p>
+
+                            <div class="wow fadeInUp" data-wow-delay="0.4s"
+                                style="margin-top: 35px; margin-bottom: 30px;">
+                                <div
+                                    style="display: inline-block; padding: 20px 30px; background: rgba(124, 58, 237, 0.04); border-left: 4px solid var(--highlight-color); border-radius: 0 16px 16px 0;">
+                                    <h4
+                                        style="margin: 0; font-size: 1.25rem; font-weight: 600; color: var(--highlight-color); line-height: 1.5;">
+                                        Gentle care. Everyday freshness.<br>Complete confidence.
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.5s"
+                                style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 0;">
+                                Vayo is more than an intimate wash. It's a reminder that taking care of yourself should
+                                always be a priority.
                             </p>
                         </div>
                     </div>
@@ -219,106 +271,147 @@
     <!-- Our Story End -->
 
     <!-- Why Vayo Start -->
-    <div class="why-choose-us" style="padding: 100px 0; background: #FCF1F5;">
-        <div class="container">
+    <div class="why-choose-us" style="background-color: #f9f5f8; padding: 100px 0; position: relative;">
+        <!-- decorative background element -->
+        <div
+            style="position: absolute; left: -100px; top: 20%; width: 400px; height: 400px; background: rgba(124, 58, 237, 0.03); border-radius: 50%; filter: blur(60px); pointer-events: none;">
+        </div>
+
+        <div class="container" style="position: relative; z-index: 1;">
             <div class="row section-row">
                 <div class="col-xl-12 text-center">
                     <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">The Vayo Difference</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Why Vayo Intimate Wash?</h2>
+                        <span class="vayo-badge wow fadeInUp"
+                            style="display: inline-flex; align-items: center; gap: 8px; background: rgba(124, 58, 237, 0.08); color: var(--highlight-color); padding: 8px 20px; border-radius: 30px; font-weight: 700; font-size: 13px; letter-spacing: 0.5px; margin-bottom: 25px; border: 1px solid rgba(124, 58, 237, 0.15); text-transform: uppercase;">
+                            <i class="fa-solid fa-star"></i> The Vayo Difference
+                        </span>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque"
+                            style="font-size: 2.8rem; font-weight: 700; color: var(--primary-color);">Why Vayo Intimate
+                            Wash?</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="row" style="row-gap: 40px; margin-top: 40px;">
-                <!-- Feature Box -->
+            <div class="row" style="row-gap: 40px;">
+                <!-- Feature Box 1 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="why-vayo-box"
-                        style="background: #fff; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%;">
-                        <div class="icon" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 20px;">
-                            <i class="fa-solid fa-feather"></i>
+                        style="background: #fff; padding: 45px 35px; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.03); height: 100%; transition: all 0.4s ease; border: 1px solid rgba(0, 0, 0, 0.03);"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 45px rgba(0, 0, 0, 0.06)';"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.03)';">
+                        <div class="icon-wrapper"
+                            style="width: 65px; height: 65px; display: flex; align-items: center; justify-content: center; background: #fcf4f8; border-radius: 18px; margin-bottom: 25px;">
+                            <div class="icon" style="font-size: 1.8rem; color: #5a5a5a;">
+                                <i class="fa-solid fa-feather"></i>
+                            </div>
                         </div>
                         <h4
-                            style="font-size: 1.25rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px;">
+                            style="font-size: 1.3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px; line-height: 1.4;">
                             Gentle Care for Your Most Sensitive Moments</h4>
-                        <p style="color: var(--text-color); line-height: 1.6; margin: 0;">Your intimate area deserves
-                            care that is different from ordinary body cleansing. Vayo is designed with women's intimate
-                            hygiene in mind, providing a gentle cleansing experience for everyday use.</p>
+                        <p style="color: #666; line-height: 1.7; margin: 0; font-size: 1.05rem;">Your intimate area
+                            deserves care that is different from ordinary body cleansing. Vayo is designed with women's
+                            intimate hygiene in mind, providing a gentle cleansing experience for everyday use.</p>
                     </div>
                 </div>
 
-                <!-- Feature Box -->
+                <!-- Feature Box 2 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="why-vayo-box"
-                        style="background: #fff; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%;">
-                        <div class="icon" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 20px;">
-                            <i class="fa-solid fa-spray-can-sparkles"></i>
+                        style="background: #fff; padding: 45px 35px; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.03); height: 100%; transition: all 0.4s ease; border: 1px solid rgba(0, 0, 0, 0.03);"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 45px rgba(0, 0, 0, 0.06)';"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.03)';">
+                        <div class="icon-wrapper"
+                            style="width: 65px; height: 65px; display: flex; align-items: center; justify-content: center; background: #fcf4f8; border-radius: 18px; margin-bottom: 25px;">
+                            <div class="icon" style="font-size: 1.8rem; color: #5a5a5a;">
+                                <i class="fa-solid fa-spray-can-sparkles"></i>
+                            </div>
                         </div>
                         <h4
-                            style="font-size: 1.25rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px;">
+                            style="font-size: 1.3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px; line-height: 1.4;">
                             Everyday Freshness</h4>
-                        <p style="color: var(--text-color); line-height: 1.6; margin: 0;">Feel clean and refreshed as
-                            part of your daily intimate-care routine.</p>
+                        <p style="color: #666; line-height: 1.7; margin: 0; font-size: 1.05rem;">Feel clean and
+                            refreshed as part of your daily intimate-care routine.</p>
                     </div>
                 </div>
 
-                <!-- Feature Box -->
+                <!-- Feature Box 3 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="why-vayo-box"
-                        style="background: #fff; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%;">
-                        <div class="icon" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 20px;">
-                            <i class="fa-solid fa-hands-bubbles"></i>
+                        style="background: #fff; padding: 45px 35px; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.03); height: 100%; transition: all 0.4s ease; border: 1px solid rgba(0, 0, 0, 0.03);"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 45px rgba(0, 0, 0, 0.06)';"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.03)';">
+                        <div class="icon-wrapper"
+                            style="width: 65px; height: 65px; display: flex; align-items: center; justify-content: center; background: #fcf4f8; border-radius: 18px; margin-bottom: 25px;">
+                            <div class="icon" style="font-size: 1.8rem; color: #5a5a5a;">
+                                <i class="fa-solid fa-hands-bubbles"></i>
+                            </div>
                         </div>
                         <h4
-                            style="font-size: 1.25rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px;">
+                            style="font-size: 1.3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px; line-height: 1.4;">
                             Gentle Cleansing</h4>
-                        <p style="color: var(--text-color); line-height: 1.6; margin: 0;">Designed with the delicate
-                            nature of intimate skin in mind, Vayo focuses on a comfortable cleansing experience.</p>
+                        <p style="color: #666; line-height: 1.7; margin: 0; font-size: 1.05rem;">Designed with the
+                            delicate nature of intimate skin in mind, Vayo focuses on a comfortable cleansing
+                            experience.</p>
                     </div>
                 </div>
 
-                <!-- Feature Box -->
+                <!-- Feature Box 4 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="why-vayo-box"
-                        style="background: #fff; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%;">
-                        <div class="icon" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 20px;">
-                            <i class="fa-solid fa-heart"></i>
+                        style="background: #fff; padding: 45px 35px; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.03); height: 100%; transition: all 0.4s ease; border: 1px solid rgba(0, 0, 0, 0.03);"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 45px rgba(0, 0, 0, 0.06)';"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.03)';">
+                        <div class="icon-wrapper"
+                            style="width: 65px; height: 65px; display: flex; align-items: center; justify-content: center; background: #fcf4f8; border-radius: 18px; margin-bottom: 25px;">
+                            <div class="icon" style="font-size: 1.8rem; color: #5a5a5a;">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
                         </div>
                         <h4
-                            style="font-size: 1.25rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px;">
+                            style="font-size: 1.3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px; line-height: 1.4;">
                             Comfort You Can Feel</h4>
-                        <p style="color: var(--text-color); line-height: 1.6; margin: 0;">Intimate care should leave you
-                            feeling comfortable, clean, and confident — not dry or uncomfortable.</p>
+                        <p style="color: #666; line-height: 1.7; margin: 0; font-size: 1.05rem;">Intimate care should
+                            leave you feeling comfortable, clean, and confident — not dry or uncomfortable.</p>
                     </div>
                 </div>
 
-                <!-- Feature Box -->
+                <!-- Feature Box 5 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="why-vayo-box"
-                        style="background: #fff; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%;">
-                        <div class="icon" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 20px;">
-                            <i class="fa-solid fa-star"></i>
+                        style="background: #fff; padding: 45px 35px; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.03); height: 100%; transition: all 0.4s ease; border: 1px solid rgba(0, 0, 0, 0.03);"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 45px rgba(0, 0, 0, 0.06)';"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.03)';">
+                        <div class="icon-wrapper"
+                            style="width: 65px; height: 65px; display: flex; align-items: center; justify-content: center; background: #fcf4f8; border-radius: 18px; margin-bottom: 25px;">
+                            <div class="icon" style="font-size: 1.8rem; color: #5a5a5a;">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
                         </div>
                         <h4
-                            style="font-size: 1.25rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px;">
+                            style="font-size: 1.3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px; line-height: 1.4;">
                             Confidence Every Day</h4>
-                        <p style="color: var(--text-color); line-height: 1.6; margin: 0;">Whether you're heading to
-                            work, travelling, working out, or simply enjoying your day, Vayo helps make intimate hygiene
-                            an effortless part of your routine.</p>
+                        <p style="color: #666; line-height: 1.7; margin: 0; font-size: 1.05rem;">Whether you're heading
+                            to work, travelling, working out, or simply enjoying your day, Vayo helps make intimate
+                            hygiene an effortless part of your routine.</p>
                     </div>
                 </div>
 
-                <!-- Feature Box -->
+                <!-- Feature Box 6 -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="why-vayo-box"
-                        style="background: #fff; padding: 40px 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%;">
-                        <div class="icon" style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 20px;">
-                            <i class="fa-regular fa-calendar-check"></i>
+                        style="background: #fff; padding: 45px 35px; border-radius: 24px; box-shadow: 0 15px 35px rgba(0,0,0,0.03); height: 100%; transition: all 0.4s ease; border: 1px solid rgba(0, 0, 0, 0.03);"
+                        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 45px rgba(0, 0, 0, 0.06)';"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.03)';">
+                        <div class="icon-wrapper"
+                            style="width: 65px; height: 65px; display: flex; align-items: center; justify-content: center; background: #fcf4f8; border-radius: 18px; margin-bottom: 25px;">
+                            <div class="icon" style="font-size: 1.8rem; color: #5a5a5a;">
+                                <i class="fa-regular fa-calendar-check"></i>
+                            </div>
                         </div>
                         <h4
-                            style="font-size: 1.25rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px;">
+                            style="font-size: 1.3rem; font-weight: 700; color: var(--primary-color); margin-bottom: 15px; line-height: 1.4;">
                             Made for Her Everyday</h4>
-                        <p style="color: var(--text-color); line-height: 1.6; margin: 0;">Life doesn't stop. Busy
+                        <p style="color: #666; line-height: 1.7; margin: 0; font-size: 1.05rem;">Life doesn't stop. Busy
                             mornings. Long workdays. Travel. Workouts. Period days. Special occasions. Vayo is made to
                             fit naturally into all of them.</p>
                     </div>

@@ -3080,7 +3080,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	background-position: center center;
 	background-size: cover;
 	border-radius: 14px;
-	padding: 305px 0 145px;
+	padding: 180px 0 100px;
 	margin: 15px 15px 0;
 	overflow: hidden;
 }
@@ -5832,7 +5832,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	.page-header {
 		margin: 0;
 		border-radius: 0;
-		padding: 220px 0 80px;
+		padding: 120px 0 60px;
 	}
 
 	.page-header-box h1 {
@@ -6502,7 +6502,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 	}
 
 	.page-header {
-		padding-top: 205px;
+		padding-top: 100px;
 	}
 
 	.page-header-box h1 {
