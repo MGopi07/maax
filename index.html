@@ -70,15 +70,7 @@
                     <div class="col-lg-5 col-md-4">
                         <!-- Topbar Link Box Start -->
                         <div class="topbar-link-box">
-                            <!-- Topbar Contact Information Start -->
-                            <div class="topbar-contact-info-list">
-                                <ul>
-                                    <li><a href="#">Help</a></li>
-                                    <li><a href="#">support</a></li>
-                                    <li><a href="contact.html">contact</a></li>
-                                </ul>
-                            </div>
-                            <!-- Topbar Contact Information End -->
+
 
                             <!-- Topbar Social Links Start -->
                             <div class="topbar-social-links">
@@ -175,6 +167,49 @@
         .hero-slider .swiper-button-prev:hover {
             background: var(--accent-color);
         }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 18px;
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.65);
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .hero-badge i {
+            color: #8b5cf6;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        .feature-icon-premium {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: rgba(139, 92, 246, 0.1);
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            margin-right: 20px;
+            border: 1px solid rgba(139, 92, 246, 0.15);
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .feature-icon-premium:hover {
+            background: var(--primary-color);
+            color: #ffffff;
+            transform: scale(1.05) translateY(-3px);
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.25);
+            border-color: var(--primary-color);
+        }
     </style>
     <div class="hero dark-section" style="padding: 0; background-image: none;">
         <!-- Swiper Container -->
@@ -183,22 +218,21 @@
 
                 <!-- Slide 1 -->
                 <div class="swiper-slide"
-                    style="background: linear-gradient(135deg, #2D1B4E, #1A0D30); display: flex; align-items: center; padding: 220px 0 100px;">
+                    style="background: linear-gradient(135deg, #381845, #170A24); display: flex; align-items: center; padding: 220px 0 100px;">
                     <div class="container">
                         <div class="row align-items-center">
                             <!-- Left Side: Content -->
                             <div class="col-xl-6 col-lg-7">
                                 <div class="hero-content" style="padding-right: 30px;">
                                     <div class="section-title">
-                                        <span class="section-sub-title" style="color: var(--highlight-color);">Vayo
-                                            Intimate Wash</span>
+                                        <span class="hero-badge"><i class="fa-solid fa-star"></i> Vayo Intimate
+                                            Wash</span>
                                         <h1 class="text-anime-style-3"
                                             style="font-size: 3.5rem; line-height: 1.2; margin-bottom: 25px;">Everyday
                                             Freshness & Confidence</h1>
-                                        <p style="font-size: 1.15rem; line-height: 1.8;">Discover gentle, pH-balanced
-                                            care designed specifically for your most sensitive moments. Made with
-                                            natural ingredients for all-day comfort and a refreshing fragrance that
-                                            keeps you feeling your best.</p>
+                                        <p style="font-size: 1.15rem; line-height: 1.8;">Our pH-balanced formula is free
+                                            from parabens and harsh chemicals. Experience pure, gentle cleansing that
+                                            respects your body's natural balance while keeping you protected</p>
                                     </div>
                                     <div class="hero-content-body"
                                         style="margin-top: 45px; display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
@@ -214,7 +248,8 @@
                             </div>
                             <!-- Right Side: Image -->
                             <div class="col-xl-5 offset-xl-1 col-lg-5">
-                                <div class="hero-image-wrapper mt-5 mt-lg-0" style="position: relative; max-width: 450px; margin: 0 auto;">
+                                <div class="hero-image-wrapper mt-5 mt-lg-0"
+                                    style="position: relative; max-width: 450px; margin: 0 auto;">
                                     <!-- Glowing backdrop effect -->
                                     <div
                                         style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120%; height: 120%; background: radial-gradient(circle, rgba(124,58,237,0.3) 0%, rgba(26,13,48,0) 70%); z-index: 1;">
@@ -241,8 +276,8 @@
                             <div class="col-xl-6 col-lg-7">
                                 <div class="hero-content" style="padding-right: 30px;">
                                     <div class="section-title">
-                                        <span class="section-sub-title" style="color: var(--highlight-color);">100% Safe
-                                            & Natural</span>
+                                        <span class="hero-badge"><i class="fa-solid fa-star"></i> 100% Safe &
+                                            Natural</span>
                                         <h1 class="text-anime-style-3"
                                             style="font-size: 3.5rem; line-height: 1.2; margin-bottom: 25px;">
                                             Dermatologist Tested Care</h1>
@@ -261,7 +296,8 @@
                             </div>
                             <!-- Right Side: Image -->
                             <div class="col-xl-5 offset-xl-1 col-lg-5">
-                                <div class="hero-image-wrapper mt-5 mt-lg-0" style="position: relative; max-width: 450px; margin: 0 auto;">
+                                <div class="hero-image-wrapper mt-5 mt-lg-0"
+                                    style="position: relative; max-width: 450px; margin: 0 auto;">
                                     <div
                                         style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120%; height: 120%; background: radial-gradient(circle, rgba(237,58,168,0.2) 0%, rgba(26,13,48,0) 70%); z-index: 1;">
                                     </div>
@@ -302,92 +338,6 @@
     </div>
     <!-- Hero Section End -->
 
-    <!-- About Us Section Start -->
-    <div class="about-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <!-- About Us Image Box Start -->
-                    <div class="about-us-image-box wow fadeInUp">
-                        <!-- About Us Image Box-1 Start -->
-                        <div class="about-us-image image-1">
-                            <figure class="image-anime">
-                                <img src="images/about-us-image-1.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- About Us Image Box-1 End -->
-
-                        <!-- About Us Image Box-2 Start -->
-                        <div class="about-us-image image-2">
-                            <figure class="image-anime">
-                                <img src="images/about-us-image-2.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- About Us Image Box-2 End -->
-                    </div>
-                    <!-- About Us Image Box End -->
-                </div>
-
-                <div class="col-xl-6">
-                    <!-- About Us Content Start -->
-                    <div class="about-us-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">About Us</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Professional dermatology and aesthetic
-                                care you trust</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We provide expert dermatology and advanced
-                                aesthetic treatments focused healthy, beautiful skin. Our experienced specialists use
-                                modern technology.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- About Us Item List Start -->
-                        <div class="about-us-item-list wow fadeInUp" data-wow-delay="0.4s">
-                            <!-- About Us Item Start -->
-                            <div class="about-us-item">
-                                <div class="icon-box">
-                                    <img src="images/icon-about-us-item-1.svg" alt="">
-                                </div>
-                                <div class="about-us-item-content">
-                                    <h3>Personalized Treatment </h3>
-                                    <p> We are committed providing personalized care.</p>
-                                </div>
-                            </div>
-                            <!-- About Us Item End -->
-
-                            <!-- About Us Item Start -->
-                            <div class="about-us-item">
-                                <div class="icon-box">
-                                    <img src="images/icon-about-us-item-2.svg" alt="">
-                                </div>
-                                <div class="about-us-item-content">
-                                    <h3>Trusted Results</h3>
-                                    <p> We are committed providing personalized care.</p>
-                                </div>
-                            </div>
-                            <!-- About Us Item End -->
-                        </div>
-                        <!-- About Us Item List End -->
-
-                        <!-- About Us Footer Start -->
-                        <div class="about-us-footer wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- About Us Button Start -->
-                            <div class="about-us-btn">
-                                <a href="about.html" class="btn-default">Learn More About</a>
-                            </div>
-                            <!-- About Us Button End -->
-
-
-                        </div>
-                        <!-- About Us Footer End -->
-                    </div>
-                    <!-- About Us Content End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About Us Section End -->
 
     <!-- Product Section Start -->
     <div class="our-product bg-section" style="padding-top: 80px; padding-bottom: 80px;">
@@ -395,17 +345,17 @@
             <div class="row section-row">
                 <div class="col-xl-12">
                     <div class="section-title section-title-center">
-                        <span class="section-sub-title wow fadeInUp">Featured Product</span>
-                        <h2 class="text-anime-style-3">Discover Vayo Intimate Wash</h2>
+                        <span class="section-sub-title wow fadeInUp">Our Signature Product</span>
+                        <h2 class="text-anime-style-3">Gentle care for your everyday intimate hygiene</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center" style="margin-top: 20px;">
+            <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <!-- Card Container -->
                     <div class="product-card wow fadeInUp"
-                        style="background: #ffffff; border-radius: 30px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.05); display: flex; flex-wrap: wrap; transition: transform 0.3s ease;">
+                        style="background: #F2ECF9; border-radius: 30px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.05); display: flex; flex-wrap: wrap; transition: transform 0.3s ease;">
 
                         <!-- Card Image -->
                         <div class="product-card-image" style="flex: 1 1 45%; position: relative;">
@@ -443,10 +393,23 @@
 
                             <div class="product-action"
                                 style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid #eee; padding-top: 25px;">
-                                <h4 style="font-size: 2rem; font-weight: bold; color: var(--primary-color); margin: 0;">
-                                    $24.99</h4>
+                                <div>
+                                    <h4
+                                        style="font-size: 2rem; font-weight: bold; color: var(--primary-color); margin: 0; margin-bottom: 5px;">
+                                        $24.99</h4>
+                                    <div class="product-reviews"
+                                        style="display: flex; gap: 4px; color: #F59E0B; font-size: 0.85rem; align-items: center;">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <span
+                                            style="color: var(--text-color); font-size: 0.75rem; margin-left: 5px; font-weight: 500;">(4.9)</span>
+                                    </div>
+                                </div>
                                 <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20buying%20Vayo%20Intimate%20Wash"
-                                    target="_blank" class="btn-default btn-highlighted">
+                                    target="_blank" class="btn-default btn-whatsapp">
                                     <i class="fa-brands fa-whatsapp"
                                         style="font-size: 1.2rem; margin-right: 8px;"></i>Buy via WhatsApp
                                 </a>
@@ -461,128 +424,15 @@
     </div>
     <!-- Product Section End -->
 
-
-    <!-- Why Choose Us Section Start -->
-    <div class="why-choose-us">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6">
-                    <!-- Why Choose Us Content Start -->
-                    <div class="why-choose-us-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Why Choose Us</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Delivering trusted results in skin and
-                                beauty care</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We are committed to delivering safe,
-                                effective, and reliable results through advanced dermatology and aesthetic treatments.
-                            </p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Why Choose Us Body Start -->
-                        <div class="why-choose-us-body wow fadeInUp" data-wow-delay="0.4s">
-                            <!-- Why Choose Body List Start -->
-                            <div class="why-choose-body-list">
-                                <ul>
-                                    <li>Safe and Effective Procedures</li>
-                                    <li>Expert Dermatologists</li>
-                                </ul>
-                            </div>
-                            <!-- Why Choose Body List End -->
-
-                            <!-- Why Choose Highlighted Box Start -->
-                            <div class="why-choose-highlighted-box">
-                                <p>“We deliver expert care, advanced treatments and personalized solution to help you
-                                    achieve healthy, radiant skin with confidence and trust.”</p>
-                            </div>
-                            <!-- Why Choose Highlighted Box End -->
-                        </div>
-                        <!-- Why Choose Us Body End -->
-
-                        <!-- Why Choose Us Footer Start -->
-                        <div class="why-choose-us-footer wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- Why Choose Us Footer Button Start -->
-                            <div class="why-choose-us-footer-btn">
-                                <a href="contact.html" class="btn-default">Get Consultation</a>
-                            </div>
-                            <!-- Why Choose Us Footer Button End -->
-
-                            <!-- Why Choose Us Contact Box Start -->
-                            <div class="why-choose-us-contact-box">
-                                <div class="icon-box">
-                                    <img src="images/icon-headphone-white.svg" alt="">
-                                </div>
-                                <div class="why-choose-contact-box-content">
-                                    <p>Phone Numer</p>
-                                    <h3><a href="tel:123456789">+123 456 789</a></h3>
-                                </div>
-                            </div>
-                            <!-- Why Choose Us Contact Box End -->
-                        </div>
-                        <!-- Why Choose Us Footer End -->
-                    </div>
-                    <!-- Why Choose Us Content End -->
-                </div>
-
-                <div class="col-xl-6">
-                    <!-- Why Choose Image Box Start -->
-                    <div class="why-choose-image-box wow fadeInUp">
-                        <!-- Why Choose Image Box-1 Start -->
-                        <div class="why-choose-image-box-1">
-                            <div class="why-choose-image-1">
-                                <figure class="image-anime">
-                                    <img src="images/why-choose-image-1.jpg" alt="">
-                                </figure>
-                            </div>
-                            <div class="why-choose-image-2">
-                                <figure class="image-anime">
-                                    <img src="images/why-choose-image-2.jpg" alt="">
-                                </figure>
-                            </div>
-                        </div>
-                        <!-- Why Choose Image Box-1 End -->
-
-                        <!-- Why Choose Image Box-2 Start -->
-                        <div class="why-choose-image-box-2">
-                            <!-- Why Choose Counter List Start -->
-                            <div class="why-choose-counter-list">
-                                <div class="why-choose-counter-item">
-                                    <h2><span class="counter">15</span>+</h2>
-                                    <p>Clinical Experience</p>
-                                </div>
-                                <div class="why-choose-counter-item">
-                                    <h2><span class="counter">98</span>%</h2>
-                                    <p>Patient Satisfaction</p>
-                                </div>
-                            </div>
-                            <!-- Why Choose Counter List End -->
-
-                            <!-- Why Choose Image 2 Start -->
-                            <div class="why-choose-image-3">
-                                <figure class="image-anime">
-                                    <img src="images/why-choose-image-3.jpg" alt="">
-                                </figure>
-                            </div>
-                            <!-- Why Choose Image 2 End -->
-                        </div>
-                        <!-- Why Choose Image Box-2 End -->
-                    </div>
-                    <!-- Why Choose Image Box End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Why Choose Us Section End -->
     <!-- Real Routines Section Start -->
-    <div class="real-routines  bg-section" style="padding-top: 80px; padding-bottom: 80px;">
+    <div class="real-routines" style="padding-top: 80px; padding-bottom: 80px; background-color: var(--bg-color);">
         <div class="container">
             <div class="row" style="margin-bottom: 30px;">
                 <div class="col-xl-12 text-center">
                     <div class="section-title section-title-center" style="margin-bottom: 0;">
                         <span class="section-sub-title wow fadeInUp"
-                            style="color: var(--accent-color); font-weight: 600; letter-spacing: 2px;">FRESHNESS . CARE
-                            . CONFIDENCE</span>
+                            style="color: var(--accent-color); font-weight: 600; letter-spacing: 2px;">Freshness . Care
+                            . Confidence</span>
                         <h2 class="text-anime-style-3" data-cursor="-opaque"
                             style="text-transform: uppercase; margin-top: 15px; margin-bottom: 20px;">REAL WOMEN. REAL
                             ROUTINES.</h2>
@@ -601,8 +451,7 @@
                     <div class="row" style="row-gap: 35px;">
                         <!-- Feature 1 -->
                         <div class="col-md-6 d-flex">
-                            <div class="icon"
-                                style="flex-shrink: 0; width: 55px; height: 55px; border-radius: 50%; background: #FDE8EF; color: var(--accent-color); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-right: 15px;">
+                            <div class="icon feature-icon-premium">
                                 <i class="fa-solid fa-leaf"></i>
                             </div>
                             <div>
@@ -616,8 +465,7 @@
                         </div>
                         <!-- Feature 2 -->
                         <div class="col-md-6 d-flex">
-                            <div class="icon"
-                                style="flex-shrink: 0; width: 55px; height: 55px; border-radius: 50%; background: #FDE8EF; color: var(--accent-color); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-right: 15px;">
+                            <div class="icon feature-icon-premium">
                                 <i class="fa-solid fa-droplet"></i>
                             </div>
                             <div>
@@ -630,8 +478,7 @@
                         </div>
                         <!-- Feature 3 -->
                         <div class="col-md-6 d-flex">
-                            <div class="icon"
-                                style="flex-shrink: 0; width: 55px; height: 55px; border-radius: 50%; background: #FDE8EF; color: var(--accent-color); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-right: 15px;">
+                            <div class="icon feature-icon-premium">
                                 <i class="fa-solid fa-flask-vial"></i>
                             </div>
                             <div>
@@ -644,8 +491,7 @@
                         </div>
                         <!-- Feature 4 -->
                         <div class="col-md-6 d-flex">
-                            <div class="icon"
-                                style="flex-shrink: 0; width: 55px; height: 55px; border-radius: 50%; background: #FDE8EF; color: var(--accent-color); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-right: 15px;">
+                            <div class="icon feature-icon-premium">
                                 <i class="fa-solid fa-seedling"></i>
                             </div>
                             <div>
@@ -658,8 +504,7 @@
                         </div>
                         <!-- Feature 5 -->
                         <div class="col-md-6 d-flex">
-                            <div class="icon"
-                                style="flex-shrink: 0; width: 55px; height: 55px; border-radius: 50%; background: #FDE8EF; color: var(--accent-color); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-right: 15px;">
+                            <div class="icon feature-icon-premium">
                                 <i class="fa-solid fa-shield-halved"></i>
                             </div>
                             <div>
@@ -672,8 +517,7 @@
                         </div>
                         <!-- Feature 6 -->
                         <div class="col-md-6 d-flex">
-                            <div class="icon"
-                                style="flex-shrink: 0; width: 55px; height: 55px; border-radius: 50%; background: #FDE8EF; color: var(--accent-color); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-right: 15px;">
+                            <div class="icon feature-icon-premium">
                                 <i class="fa-solid fa-certificate"></i>
                             </div>
                             <div>
@@ -801,155 +645,6 @@
     </div>
     <!-- Core Feature Section End -->
 
-
-
-    <!-- Our Faqs Section Start -->
-    <div class="our-faqs">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <!-- Faq Image Box Start -->
-                    <div class="faq-image-box wow fadeInUp">
-                        <!-- faq Image Start -->
-                        <div class="faq-image">
-                            <figure class="image-anime">
-                                <img src="images/our-faq-image.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- faq Image End -->
-
-                        <!-- Faq Client Box Start -->
-                        <div class="faq-cta-box">
-                            <div class="faq-cta-box-title">
-                                <h2>Contact for more questions:</h2>
-                            </div>
-                            <div class="faq-cta-contact-list">
-                                <ul>
-                                    <li><a href="tel:123456789"><img src="images/icon-phone-primary.svg" alt=""> +123
-                                            456 789</a></li>
-                                    <li><a href="mailto:support@domainname.com"><img src="images/icon-mail-primary.svg"
-                                                alt=""> support@domainname.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Faq Client Box End -->
-                    </div>
-                    <!-- Faq Image Box End -->
-                </div>
-
-                <div class="col-xl-6">
-                    <!-- Faq Content Start -->
-                    <div class="faq-content-box">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp"> Frequently Asked Questions.</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Everything you need to know about Vayo
-                                Intimate Wash</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Find clear and helpful answers to your most
-                                common questions. We provide expert guidance on daily usage and delivery.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- FAQ Accordion Start -->
-                        <div class="faq-accordion" id="accordion">
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp">
-                                <h2 class="accordion-header" id="heading1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                        Q1. How often can I use Vayo Intimate Wash?
-                                    </button>
-                                </h2>
-                                <div id="collapse1" class="accordion-collapse collapse show" role="region"
-                                    aria-labelledby="heading1" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>It is designed for regular intimate hygiene. Follow the usage instructions
-                                            provided on the product packaging.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
-                                <h2 class="accordion-header" id="heading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                        Q2. Is Vayo Intimate Wash suitable for everyday use?
-                                    </button>
-                                </h2>
-                                <div id="collapse2" class="accordion-collapse collapse" role="region"
-                                    aria-labelledby="heading2" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>Yes, Vayo is formulated to support gentle and refreshing everyday intimate
-                                            hygiene.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
-                                <h2 class="accordion-header" id="heading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                        Q3. Can Vayo Intimate Wash help maintain freshness?
-                                    </button>
-                                </h2>
-                                <div id="collapse3" class="accordion-collapse collapse" role="region"
-                                    aria-labelledby="heading3" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>Vayo is designed to provide a refreshing cleansing experience and help you
-                                            feel fresh and comfortable as part of your daily hygiene routine.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
-                                <h2 class="accordion-header" id="heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        Q4. How should I use Vayo Intimate Wash?
-                                    </button>
-                                </h2>
-                                <div id="collapse4" class="accordion-collapse collapse" role="region"
-                                    aria-labelledby="heading4" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>Apply a small amount to the external intimate area, gently cleanse, and rinse
-                                            thoroughly with water.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-
-                            <!-- FAQ Item Start -->
-                            <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
-                                <h2 class="accordion-header" id="heading5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                        Q5. How fast is the delivery?
-                                    </button>
-                                </h2>
-                                <div id="collapse5" class="accordion-collapse collapse" role="region"
-                                    aria-labelledby="heading5" data-bs-parent="#accordion">
-                                    <div class="accordion-body">
-                                        <p>We offer express delivery within 24–48 hours in most major cities. Standard
-                                            delivery typically takes 3–5 business days, depending on your location.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- FAQ Item End -->
-                        </div>
-                        <!-- FAQ Accordion End -->
-                    </div>
-                    <!-- Faq Content End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Faqs Section End -->
 
 
     <!-- Our Testimonials Section Start -->
@@ -1169,6 +864,156 @@
     </div>
     <!-- Our Testimonials Section End -->
 
+    <!-- Our Faqs Section Start -->
+    <div class="our-faqs-prime our-faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-6">
+                    <!-- Faq Content Start -->
+                    <div class="faq-content-prime">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp"><i class="fa-solid fa-asterisk"
+                                    style="margin-right: 5px;"></i> Frequently Asked Questions</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Common question about skin care and
+                                treatments</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Find answers to the most common questions
+                                about our dermatology and cosmetology services. We aim to provide clear information</p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- Faq CTA Box Start -->
+                        <div class="faq-cta-box-prime wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="faq-cta-box-title-prime">
+                                <h3>Talk To Our Specialists</h3>
+                            </div>
+                            <div class="faq-cta-item-list-prime">
+                                <div class="faq-cta-item-prime">
+                                    <div class="icon-box">
+                                        <i class="fa-regular fa-envelope"
+                                            style="font-size: 20px; color: #fff; position: relative; z-index: 1;"></i>
+                                    </div>
+                                    <div class="faq-cta-item-content-prime">
+                                        <p>Email Address</p>
+                                        <h3><a href="mailto:info@domain.com">info@domain.com</a></h3>
+                                    </div>
+                                </div>
+                                <div class="faq-cta-item-prime">
+                                    <div class="icon-box">
+                                        <i class="fa-solid fa-headset"
+                                            style="font-size: 20px; color: #fff; position: relative; z-index: 1;"></i>
+                                    </div>
+                                    <div class="faq-cta-item-content-prime">
+                                        <p>Contact Us!</p>
+                                        <h3><a href="tel:+1123456789">+1 123 456 789</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Faq CTA Box End -->
+                    </div>
+                    <!-- Faq Content End -->
+                </div>
+
+                <div class="col-lg-6 col-xl-6">
+                    <!-- FAQ Accordion Start -->
+                    <div class="faq-accordion-prime" id="accordion">
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    Q1. How often can I use Vayo Intimate Wash?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" role="region"
+                                aria-labelledby="heading1" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>It is designed for regular intimate hygiene. Follow the usage instructions
+                                        provided on the product packaging.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Q2. Is Vayo Intimate Wash suitable for everyday use?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" role="region"
+                                aria-labelledby="heading2" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Yes, Vayo is formulated to support gentle and refreshing everyday intimate
+                                        hygiene.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Q3. Can Vayo Intimate Wash help maintain freshness?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" role="region"
+                                aria-labelledby="heading3" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Vayo is designed to provide a refreshing cleansing experience and help you
+                                        feel fresh and comfortable as part of your daily hygiene routine.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    Q4. How should I use Vayo Intimate Wash?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" role="region"
+                                aria-labelledby="heading4" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Apply a small amount to the external intimate area, gently cleanse, and rinse
+                                        thoroughly with water.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    Q5. How fast is the delivery?
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" role="region"
+                                aria-labelledby="heading5" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>We offer express delivery within 24–48 hours in most major cities. Standard
+                                        delivery typically takes 3–5 business days, depending on your location.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+                    </div>
+                    <!-- FAQ Accordion End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Faqs Section End -->
     <!-- Main Footer Start -->
     <footer class="main-footer bg-section dark-section">
         <div class="container">
@@ -1214,8 +1059,6 @@
                             <ul>
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="testimonials.html">Testimonials</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
@@ -1223,13 +1066,11 @@
 
                         <!-- Footer Links Start -->
                         <div class="footer-links">
-                            <h2>Our Services</h2>
+                            <h2>Our Products</h2>
                             <ul>
-                                <li><a href="service-single.html">Acne Scar Treatment</a></li>
-                                <li><a href="service-single.html">Laser Hair Removal</a></li>
-                                <li><a href="service-single.html">Skin Rejuvenation</a></li>
-                                <li><a href="service-single.html">Pigmentation Treatment</a></li>
-                                <li><a href="service-single.html">Chemical Peels</a></li>
+                                <li><a href="service-single.html">Vayo</a></li>
+                                <li><a href="service-single.html">Vayo Intimate Wash</a></li>
+
                             </ul>
                         </div>
                         <!-- Footer Links End -->
