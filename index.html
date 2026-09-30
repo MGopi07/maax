@@ -90,7 +90,7 @@
         <!-- Topbar Section End -->
 
         <!-- Header Start -->
-        <header class="main-header">
+        <header class="main-header active-sticky-header">
             <div class="header-sticky">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
@@ -1044,8 +1044,10 @@
                 <div class="col-xl-3">
                     <!-- About Footer Start -->
                     <div class="about-footer">
-                        <h2>About Clinic</h2>
-                        <p>We offer expert dermatology advanced cosmetology treatments focused on achieving healthy.</p>
+                        <h2>About Maaxicare</h2>
+                        <p>Maaxicare aims to deliver the best cosmetology solutions. We are committed
+                            to providing gentle, effective care that restores confidence and enhances natural beauty.
+                        </p>
                     </div>
                     <!-- About Footer End -->
                 </div>
@@ -1161,6 +1163,16 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
     <script src="../../demo.awaikenthemes.com/assets/js/theme-panel-dynamic.js"></script>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Pink Theme">
+        <i class="fa-solid fa-palette"></i>
+    </button>
+
+    <script>
+        document.getElementById('themeToggleBtn').addEventListener('click', function () {
+            document.body.classList.toggle('theme-pink');
+        });
+    </script>
 </body>
 
 <!-- Mirrored from html.awaikenthemes.com/dermix/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Sep 2026 08:46:59 GMT -->

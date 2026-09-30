@@ -61,6 +61,137 @@
 	--default-font: "Onest", sans-serif;
 }
 
+body.theme-pink {
+	--accent-color: #e83e8c;
+	--bg-color: #fff0f6;
+}
+
+/* Theme Pink Specific Overrides for hard-coded purple sections */
+body.theme-pink .dark-section {
+	background: linear-gradient(135deg, #4E1B36 0%, #240916 100%) !important;
+}
+
+body.theme-pink .hero-slider .swiper-slide {
+	background: linear-gradient(135deg, #4E1B36, #240916) !important;
+}
+
+body.theme-pink .page-header {
+	background-image: linear-gradient(rgba(45, 12, 28, 0.85), rgba(36, 9, 22, 0.95)), url('../images/page-header-bg.jpg') !important;
+}
+
+/* Also override the glow color */
+body.theme-pink .header-glow {
+    background: radial-gradient(circle at top right, rgba(232, 62, 140, 0.25) 0%, transparent 60%) !important;
+}
+
+body.theme-pink .hero-badge i {
+    color: var(--accent-color) !important;
+}
+
+body.theme-pink .feature-icon-premium {
+    background: rgba(232, 62, 140, 0.1) !important;
+    border-color: rgba(232, 62, 140, 0.15) !important;
+    color: var(--accent-color) !important;
+}
+
+body.theme-pink .feature-icon-premium:hover {
+    background: var(--accent-color) !important;
+    color: #ffffff !important;
+}
+
+/* --- Why Vayo Section --- */
+.why-vayo-box {
+    background: #fff;
+    padding: 45px 35px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.03);
+    height: 100%;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.why-vayo-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+}
+
+.why-vayo-box .icon-wrapper {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(124, 58, 237, 0.08); /* Default Purple */
+    border-radius: 20px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+body.theme-pink .why-vayo-box .icon-wrapper {
+    background: rgba(232, 62, 140, 0.08); /* Pink override */
+}
+
+.why-vayo-box .icon-wrapper .icon {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.why-vayo-box:hover .icon-wrapper {
+    background: var(--accent-color) !important;
+}
+
+.why-vayo-box:hover .icon-wrapper .icon {
+    color: #fff !important;
+}
+
+.why-vayo-box h4 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.why-vayo-box p {
+    color: var(--text-color);
+    line-height: 1.7;
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+body.theme-pink .hero-image-wrapper > div:first-child {
+	background: radial-gradient(circle, rgba(232,62,140,0.3) 0%, rgba(36,9,22,0) 70%) !important;
+}
+
+body.theme-pink img[src*="logo.svg"] {
+    filter: hue-rotate(70deg);
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	z-index: 9999;
+	background-color: var(--accent-color);
+	color: var(--white-color);
+	border: none;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+	transform: scale(1.1);
+}
+
 /************************************/
 /*** 	   02. General css		  ***/
 /************************************/
@@ -12240,4 +12371,33 @@ header.main-header.main-header-prime .header-sticky.active {
 		flex-direction: column-reverse;
 		padding: 15px 0;
 	}
+}
+
+/* Active Sticky Header Dark Theme Overrides */
+header.main-header .header-sticky.active {
+    left: 0 !important;
+    right: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+    background: rgba(26, 13, 48, 0.92) !important;
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+}
+
+body.theme-pink header.main-header .header-sticky.active {
+    background: rgba(48, 13, 31, 0.92) !important; /* Deep dark pink to match the pink theme */
+}
+
+header.main-header .header-sticky.active .navbar {
+    padding: 15px 0 !important; /* Reduces the height significantly */
+}
+
+header.main-header .header-sticky.active .main-menu ul li a {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+header.main-header .header-sticky.active .main-menu ul li a:hover {
+    color: var(--accent-color) !important;
 }
